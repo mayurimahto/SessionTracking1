@@ -36,7 +36,8 @@ public class aaa extends HttpServlet
 		pw.println("</script>");
 		pw.println("</head>");
 		pw.println("<body>");
-		pw.println("<form action='/SessionTracking/bbb' onsubmit='return validateForm(this)'>");
+		pw.println("<form action='/SessionTracking1/bbb' onsubmit='return validateForm(this)'>");
+		pw.println("<input type='hidden' name='name' id='name' value='"+name+"'>");
 		pw.println("City");
 		pw.println("<input type='text' name='city' id='city'>");
 		pw.println("<span id='ctErrorSection'></span>");

@@ -27,7 +27,7 @@ public class bbb extends HttpServlet
 			pw.println("Data Saved<br>");
 			pw.println("Name : "+name+"<br>");
 			pw.println("City : "+city+"<br>");
-			pw.println("<form action='/SessionTracking/index.html'>");
+			pw.println("<form action='/SessionTracking1/index.html'>");
 			pw.println("<button type='submit'>Ok</button>");
 			pw.println("</form>");
 			pw.println("</body>");
